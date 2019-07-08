@@ -1,10 +1,8 @@
----
-description: "\U0001F499 A list of awesome React Native & Expo web projects you can try now! ✨"
----
-
 # AWESOME!
 
-## Websites
+💙 A list of awesome React Native & Expo web projects you can try now! ✨
+
+### Websites
 
 * [Twitter](https://twitter.com)
 * [Major League Soccer](https://matchcenter.mlssoccer.com/)
