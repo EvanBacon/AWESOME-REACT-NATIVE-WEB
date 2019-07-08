@@ -5,252 +5,388 @@ description: >-
 
 # View Styles
 
----
+## The API
 
-### `elevation`
+### [backdropFilter](https://developer.mozilla.org/en-US/docs/Web/CSS/background-filter)
 
-(Android-only) Sets the elevation of a view, using Android's underlying [elevation API](https://developer.android.com/training/material/shadows-clipping.html#Elevation). This adds a drop shadow to the item and affects z-order for overlapping views. Only supported on Android 5.0+, has no effect on earlier versions.
+desccc
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| number | No       | Android  |
+#### **Type:** `string`
 
----
+#### Conversion
 
-### `backdropFilter`
+```diff
+// CSS
+- background-filter: todo;
 
-TODO:desc
+// React Native
++ backdropFilter: "todo",
+```
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+### [backgroundAttachment](https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment)
 
----
+desccc
 
-### `backgroundAttachment`
+#### **Type:** `string`
 
-TODO:desc
+#### Conversion
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+```diff
+// CSS
+- background-attachment: todo;
 
----
+// React Native
++ backgroundAttachment: "todo",
+```
 
-### `backgroundBlendMode`
+### [backgroundBlendMode](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode)
 
-TODO:desc
+desccc
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+#### **Type:** `string`
 
----
+#### Conversion
 
-### `backgroundClip`
+```diff
+// CSS
+- background-blend-mode: todo;
 
-TODO:desc
+// React Native
++ backgroundBlendMode: "todo",
+```
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+### [backgroundClip](https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip)
 
----
+desccc
 
-### `backgroundImage`
+#### **Type:** `string`
 
-TODO:desc
+#### Conversion
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+```diff
+// CSS
+- background-clip: todo;
 
----
+// React Native
++ backgroundClip: "todo",
+```
 
-### `backgroundOrigin`
+### [backgroundImage](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
 
-TODO:desc
+desccc
 
-| Type                                             | Required | Platform |
-| ------------------------------------------------ | -------- | -------- |
-| enum('border-box', 'content-box', 'padding-box') | No       | Web      |
+#### **Type:** `string`
 
----
+#### Conversion
 
-### `backgroundPosition`
+```diff
+// CSS
+- background-image: todo;
 
-TODO:desc
+// React Native
++ backgroundImage: "todo",
+```
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+### [backgroundOrigin](https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin)
 
----
+desccc
 
-### `backgroundRepeat`
+#### **Type:** `enum('border-box', 'content-box', 'padding-box')`
 
-TODO:desc
+#### Conversion
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+```diff
+// CSS
+- background-origin: todo;
 
----
+// React Native
++ backgroundOrigin: "todo",
+```
 
-### `backgroundSize`
+### [backgroundPosition](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
 
-TODO:desc
+desccc
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+#### **Type:** `string`
 
----
+#### Conversion
 
-### `boxShadow`
+```diff
+// CSS
+- background-position: todo;
 
-TODO:desc
+// React Native
++ backgroundPosition: "todo",
+```
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+### [backgroundRepeat](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat)
 
----
+desccc
 
-### `clip`
+#### **Type:** `string`
 
-TODO:desc
+#### Conversion
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+```diff
+// CSS
+- background-repeat: todo;
 
----
+// React Native
++ backgroundRepeat: "todo",
+```
 
-### `filter`
+### [backgroundSize](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size)
 
-TODO:desc
+desccc
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+#### **Type:** `string`
 
----
+#### Conversion
 
-### `outlineColor`
+```diff
+// CSS
+- background-size: todo;
 
-TODO:desc
+// React Native
++ backgroundSize: "todo",
+```
 
-| Type          | Required | Platform |
-| ------------- | -------- | -------- |
-| ColorPropType | No       | Web      |
+### [boxShadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
 
----
+desccc
 
-### `outlineOffset`
+#### **Type:** `string`
 
-TODO:desc
+#### Conversion
 
-| Type                 | Required | Platform |
-| -------------------- | -------- | -------- |
-| enum(string, number) | No       | Web      |
+```diff
+// CSS
+- box-shadow: todo;
 
----
+// React Native
++ boxShadow: "todo",
+```
 
-### `outlineStyle`
+### [clip](https://developer.mozilla.org/en-US/docs/Web/CSS/clip)
 
-TODO:desc
+desccc
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+#### **Type:** `string`
 
----
+#### Conversion
 
-### `outlineWidth`
+```diff
+// CSS
+- clip: todo;
 
-TODO:desc
+// React Native
++ clip: "todo",
+```
 
-| Type                 | Required | Platform |
-| -------------------- | -------- | -------- |
-| enum(string, number) | No       | Web      |
+### [filter](https://developer.mozilla.org/en-US/docs/Web/CSS/fliter)
 
----
+desccc
 
-### `overscrollBehavior`
+#### **Type:** `string`
 
-TODO:desc
+#### Conversion
 
-| Type                            | Required | Platform |
-| ------------------------------- | -------- | -------- |
-| enum('auto', 'contain', 'none') | No       | Web      |
+```diff
+// CSS
+- fliter: todo;
 
----
+// React Native
++ filter: "todo",
+```
 
-### `overscrollBehaviorX`
+### [outlineColor](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-color)
 
-TODO:desc
+desccc
 
-| Type                            | Required | Platform |
-| ------------------------------- | -------- | -------- |
-| enum('auto', 'contain', 'none') | No       | Web      |
+#### **Type:** `ColorPropType`
 
----
+#### Conversion
 
-### `overscrollBehaviorY`
+```diff
+// CSS
+- outline-color: todo;
 
-TODO:desc
+// React Native
++ outlineColor: "todo",
+```
 
-| Type                            | Required | Platform |
-| ------------------------------- | -------- | -------- |
-| enum('auto', 'contain', 'none') | No       | Web      |
+### [outlineOffset](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-offset)
 
----
+desccc
 
-### `scrollbarWidth`
+#### **Type:** `enum(string, number)`
 
-TODO:desc
+#### Conversion
 
-| Type                 | Required | Platform |
-| -------------------- | -------- | -------- |
-| enum('auto', 'none') | No       | Web      |
+```diff
+// CSS
+- outline-offset: todo;
 
----
+// React Native
++ outlineOffset: "todo",
+```
 
-### `scrollSnapAlign`
+### [outlineStyle](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style)
 
-TODO:desc
+desccc
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+#### **Type:** `string`
 
----
+#### Conversion
 
-### `scrollSnapType`
+```diff
+// CSS
+- outline-style: todo;
 
-TODO:desc
+// React Native
++ outlineStyle: "todo",
+```
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+### [outlineWidth](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-width)
 
----
+desccc
 
-### `WebkitMaskImage`
+#### **Type:** `enum(string, number)`
 
-TODO:desc
+#### Conversion
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+```diff
+// CSS
+- outline-width: todo;
 
----
+// React Native
++ outlineWidth: "todo",
+```
 
-### `WebkitOverflowScrolling`
+### [overscrollBehavior](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior)
 
-TODO:desc
+desccc
 
-| Type                  | Required | Platform |
-| --------------------- | -------- | -------- |
-| enum('auto', 'touch') | No       | Web      |
+#### **Type:** `enum('auto', 'contain', 'none')`
+
+#### Conversion
+
+```diff
+// CSS
+- overscroll-behavior: todo;
+
+// React Native
++ overscrollBehavior: "todo",
+```
+
+### [overscrollBehaviorX](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior-x)
+
+desccc
+
+#### **Type:** `enum('auto', 'contain', 'none')`
+
+#### Conversion
+
+```diff
+// CSS
+- overscroll-behavior-x: todo;
+
+// React Native
++ overscrollBehaviorX: "todo",
+```
+
+### [overscrollBehaviorY](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior-y)
+
+desccc
+
+#### **Type:** `enum('auto', 'contain', 'none')`
+
+#### Conversion
+
+```diff
+// CSS
+- overscroll-behavior-y: todo;
+
+// React Native
++ overscrollBehaviorY: "todo",
+```
+
+### [scrollbarWidth](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width)
+
+desccc
+
+#### **Type:** `enum('auto', 'none')`
+
+#### Conversion
+
+```diff
+// CSS
+- scrollbar-width: todo;
+
+// React Native
++ scrollbarWidth: "todo",
+```
+
+### [scrollSnapAlign](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align)
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- scroll-snap-align: todo;
+
+// React Native
++ scrollSnapAlign: "todo",
+```
+
+### [scrollSnapType](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type)
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- scroll-snap-type: todo;
+
+// React Native
++ scrollSnapType: "todo",
+```
+
+### WebkitMaskImage
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- text-indent: todo;
+
+// React Native
++ textIndent: "todo",
+```
+
+### WebkitOverflowScrolling
+
+desccc
+
+#### **Type:** `enum('auto', 'touch')`
+
+#### Conversion
+
+```diff
+// CSS
+- text-indent: todo;
+
+// React Native
++ textIndent: "todo",
+```
