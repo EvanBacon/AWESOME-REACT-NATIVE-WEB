@@ -1,4 +1,12 @@
 ---
+description: >-
+  React Native for web provides access to browser-only style properties. The following styles apply to any primitive that extends `ViewStylePropTypes` like Text, Image, TextInput, ScrollView, etc...
+---
+
+# View Styles
+
+---
+
 ### `elevation`
 
 (Android-only) Sets the elevation of a view, using Android's underlying [elevation API](https://developer.android.com/training/material/shadows-clipping.html#Elevation). This adds a drop shadow to the item and affects z-order for overlapping views. Only supported on Android 5.0+, has no effect on earlier versions.
@@ -6,11 +14,12 @@
 | Type   | Required | Platform |
 | ------ | -------- | -------- |
 | number | No       | Android  |
+
 ---
 
 ### `backdropFilter`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type   | Required | Platform |
 | ------ | -------- | -------- |
@@ -20,7 +29,7 @@ _(Web-only)_ TODO:desc
 
 ### `backgroundAttachment`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type   | Required | Platform |
 | ------ | -------- | -------- |
@@ -30,7 +39,7 @@ _(Web-only)_ TODO:desc
 
 ### `backgroundBlendMode`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type   | Required | Platform |
 | ------ | -------- | -------- |
@@ -40,7 +49,7 @@ _(Web-only)_ TODO:desc
 
 ### `backgroundClip`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type   | Required | Platform |
 | ------ | -------- | -------- |
@@ -50,7 +59,7 @@ _(Web-only)_ TODO:desc
 
 ### `backgroundImage`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type   | Required | Platform |
 | ------ | -------- | -------- |
@@ -60,7 +69,7 @@ _(Web-only)_ TODO:desc
 
 ### `backgroundOrigin`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type                                             | Required | Platform |
 | ------------------------------------------------ | -------- | -------- |
@@ -70,7 +79,7 @@ _(Web-only)_ TODO:desc
 
 ### `backgroundPosition`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type   | Required | Platform |
 | ------ | -------- | -------- |
@@ -80,7 +89,7 @@ _(Web-only)_ TODO:desc
 
 ### `backgroundRepeat`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type   | Required | Platform |
 | ------ | -------- | -------- |
@@ -90,7 +99,7 @@ _(Web-only)_ TODO:desc
 
 ### `backgroundSize`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type   | Required | Platform |
 | ------ | -------- | -------- |
@@ -100,7 +109,7 @@ _(Web-only)_ TODO:desc
 
 ### `boxShadow`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type   | Required | Platform |
 | ------ | -------- | -------- |
@@ -110,7 +119,7 @@ _(Web-only)_ TODO:desc
 
 ### `clip`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type   | Required | Platform |
 | ------ | -------- | -------- |
@@ -120,7 +129,7 @@ _(Web-only)_ TODO:desc
 
 ### `filter`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type   | Required | Platform |
 | ------ | -------- | -------- |
@@ -130,7 +139,7 @@ _(Web-only)_ TODO:desc
 
 ### `outlineColor`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type          | Required | Platform |
 | ------------- | -------- | -------- |
@@ -140,7 +149,7 @@ _(Web-only)_ TODO:desc
 
 ### `outlineOffset`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type                 | Required | Platform |
 | -------------------- | -------- | -------- |
@@ -150,7 +159,7 @@ _(Web-only)_ TODO:desc
 
 ### `outlineStyle`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type   | Required | Platform |
 | ------ | -------- | -------- |
@@ -160,7 +169,7 @@ _(Web-only)_ TODO:desc
 
 ### `outlineWidth`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type                 | Required | Platform |
 | -------------------- | -------- | -------- |
@@ -170,7 +179,7 @@ _(Web-only)_ TODO:desc
 
 ### `overscrollBehavior`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type                            | Required | Platform |
 | ------------------------------- | -------- | -------- |
@@ -180,7 +189,7 @@ _(Web-only)_ TODO:desc
 
 ### `overscrollBehaviorX`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type                            | Required | Platform |
 | ------------------------------- | -------- | -------- |
@@ -190,7 +199,7 @@ _(Web-only)_ TODO:desc
 
 ### `overscrollBehaviorY`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type                            | Required | Platform |
 | ------------------------------- | -------- | -------- |
@@ -200,7 +209,7 @@ _(Web-only)_ TODO:desc
 
 ### `scrollbarWidth`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type                 | Required | Platform |
 | -------------------- | -------- | -------- |
@@ -210,7 +219,7 @@ _(Web-only)_ TODO:desc
 
 ### `scrollSnapAlign`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type   | Required | Platform |
 | ------ | -------- | -------- |
@@ -220,7 +229,7 @@ _(Web-only)_ TODO:desc
 
 ### `scrollSnapType`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type   | Required | Platform |
 | ------ | -------- | -------- |
@@ -230,7 +239,7 @@ _(Web-only)_ TODO:desc
 
 ### `WebkitMaskImage`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type   | Required | Platform |
 | ------ | -------- | -------- |
@@ -240,7 +249,7 @@ _(Web-only)_ TODO:desc
 
 ### `WebkitOverflowScrolling`
 
-_(Web-only)_ TODO:desc
+TODO:desc
 
 | Type                  | Required | Platform |
 | --------------------- | -------- | -------- |
