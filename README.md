@@ -1,14 +1,47 @@
 ---
-description: "\U0001F499 React Native Web patterns, techniques, tips, and tricks ✨"
+description: "\U0001F499 A list of awesome React Native & Expo web projects you can try now! ✨"
 ---
 
-# React Native Web Tips
+# AWESOME!
 
-React Native is a very powerful framework that can enable you to build cross-platform mobile apps. But now with React Native for web you can create universal apps that run everywhere! 
+## Websites
 
-React Native for web was created by [Nicolas Gallagher](https://github.com/necolas) to build the Twitter Lite PWA. I've been integrating it into the Expo eco-system so that any complex native API \(with web support\) can be used in a universal capacity. 
+* [Twitter](https://twitter.com)
+* [Major League Soccer](https://matchcenter.mlssoccer.com/)
+* Devhub
+  * [Website](https://devhubapp.com)
+  * [Source](https://github.com/devhubapp/devhub/)
 
-I've collected web specific React Native information into this one location to ease the entry or conversion process.
+### Demos
 
-If you have any questions feel free to tweet at me [@Baconbrix](https://mobile.twitter.com/Baconbrix) or [@Expo](https://mobile.twitter.com/Expo).
+* Instagram Clone
+  * [Website](https://Expogram.netlify.com)
+* Crossy Road Clone
+  * [Website](https://crossyroad.netlify.com)
+  * [Source Code](https://github.com/EvanBacon/Expo-Crossy-Road)
+* Doodle Jump Clone
+  * [Website](https://doodlejump.netlify.com)
+  * [Source Code](https://github.com/EvanBacon/expo-doodle-jump)
+* Flappy Bird Clone
+  * [Website](https://flappybacon.netlify.com)
+  * [Source Code](https://github.com/EvanBacon/react-flappy-bird)
+* React Europe Conference App
+  * [Website](http://europe.netlify.com)
+  * [Source Code](https://github.com/EvanBacon/react-europe-2018-mobile)
+* Lego Building
+  * [Website](https://ldr.netlify.com)
+  * [Source Code](https://github.com/EvanBacon/Lego-Expo)
+
+## Videos
+
+* [Nicolas Gallagher - Twitter Lite, React Native, and Progressive Web Apps ](https://www.youtube.com/watch?v=tFFn39lLO-U)
+* Uber Restaurant: [https://www.youtube.com/watch?v=RV9rxrNIxnY](https://www.youtube.com/watch?v=RV9rxrNIxnY)
+* [Universal App Development - Evan Bacon \(@Baconbrix\)](https://www.youtube.com/watch?v=UcjCuWy81YM)
+* [How to Build a Website with React Native](https://www.youtube.com/watch?v=Czih6w57P9A)
+
+## Articles
+
+* [Data Camp: Porting practice to web](https://www.datacamp.com/community/tech/porting-practice-to-web-part1)
+* [How to: React Native Web app. A Happy Struggle.](https://blog.bitsrc.io/how-to-react-native-web-app-a-happy-struggle-aea7906f4903)
+* [Deploying Universal Apps with Amplify & Expo](https://blog.expo.io/deploying-universal-apps-with-amplify-expo-510c53021d42)
 

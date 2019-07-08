@@ -1,7 +1,7 @@
 # Table of contents
 
-* [React Native Web Tips](README.md)
-* [AWESOME!](awesome.md)
+* [AWESOME!](README.md)
+* [Intro](intro.md)
 * [FAQ](faq.md)
 * [Anti-Pitch](anti-pitch.md)
 
