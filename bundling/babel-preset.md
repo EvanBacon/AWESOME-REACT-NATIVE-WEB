@@ -1,2 +1,0 @@
-# Babel Preset
-

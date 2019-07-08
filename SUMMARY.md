@@ -22,9 +22,3 @@
 * [Text](styling/text.md)
 * [Transforms](styling/transforms.md)
 
-## Bundling
-
-* [Intro to Bundling](bundling/intro-to-bundling.md)
-* [Babel Preset](bundling/babel-preset.md)
-* [Webpack Config](bundling/webpack-config.md)
-
