@@ -12,8 +12,8 @@
 ## Styling
 
 - [Input Events](styling/input-events.md)
-- [CSS Animations](styling/css-animations.md)
-- [CCS Transitions](styling/ccs-transitions.md)
+- [Animations](styling/animations.md)
+- [Transitions](styling/transitions.md)
 - [Grids](styling/grids.md)
 - [Image](styling/image.md)
 - [Interactions](styling/interactions.md)

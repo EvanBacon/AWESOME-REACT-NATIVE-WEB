@@ -5,7 +5,7 @@ description: >-
   alternative is the CSS Transitions API.
 ---
 
-# CCS Animations
+# Animations
 
 ## What can it do?
 

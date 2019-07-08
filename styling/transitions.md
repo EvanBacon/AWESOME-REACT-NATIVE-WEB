@@ -5,15 +5,15 @@ description: >-
   alternative is the CSS Transitions API.
 ---
 
-# CCS Transitions
+# Transitions
 
 ## What can it do?
 
-CSS Transitions enable us to create implicit transitions similar to techniques like "magic move". You can define how you want the transition to take place and the final position, but the browser is responsible for interpolating the values. 
+CSS Transitions enable us to create implicit transitions similar to techniques like "magic move". You can define how you want the transition to take place and the final position, but the browser is responsible for interpolating the values.
 
 ## The API
 
-### transitionDelay 
+### transitionDelay
 
 The duration or durations an animation will wait before starting or proceeding to interpolate to the next value.
 
@@ -64,4 +64,3 @@ This value denotes the speed curve of the transition effect. Learn more about [C
 transitionTimingFunction: "linear"
 transitionTimingFunction: ["ease", "ease-out"]
 ```
-
