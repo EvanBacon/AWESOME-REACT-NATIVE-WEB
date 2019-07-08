@@ -1,43 +1,71 @@
 ---
-description: CSS IXD
+description:
 ---
 
 # Interactions
 
-## Interactions
+## Props
 
-#### Props
+### [cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)
 
-* [`cursor`](https://github.com/EvanBacon/React-Native-Web-Tricks/tree/e6faf7b467489e770542061d2f505b2507bdf1d8/interaction-prop-types/README.md#cursor)
-* [`userSelect`](https://github.com/EvanBacon/React-Native-Web-Tricks/tree/e6faf7b467489e770542061d2f505b2507bdf1d8/interaction-prop-types/README.md#userSelect)
-* [`willChange`](https://github.com/EvanBacon/React-Native-Web-Tricks/tree/e6faf7b467489e770542061d2f505b2507bdf1d8/interaction-prop-types/README.md#willChange)
-* [`touchAction`](https://github.com/EvanBacon/React-Native-Web-Tricks/tree/e6faf7b467489e770542061d2f505b2507bdf1d8/interaction-prop-types/README.md#touchAction)
+desccc
 
-## Reference
+#### **Type:** `string`
 
-### Props
+#### Conversion
 
-#### `cursor`
+```diff
+// CSS
+- cursor: todo;
 
-| Type | Required | Platform |
-| :--- | :--- | :--- |
-| string | No | Web |
+// React Native
++ cursor: "todo",
+```
 
-#### `userSelect`
+### [userSelect](https://developer.mozilla.org/en-US/docs/Web/CSS/user-select)
 
-| Type | Required | Platform |
-| :--- | :--- | :--- |
-| string | No | Web |
+desccc
 
-#### `willChange`
+#### **Type:** `string`
 
-| Type | Required | Platform |
-| :--- | :--- | :--- |
-| string | No | Web |
+#### Conversion
 
-#### `touchAction`
+```diff
+// CSS
+- user-select: todo;
 
-| Type | Required | Platform |
-| :--- | :--- | :--- |
-| enum\('auto', 'inherit', 'manipulation', 'none', 'pan-down', 'pan-left', 'pan-right', 'pan-up', 'pan-x', 'pan-y', 'pinch-zoom'\) | No | Web |
+// React Native
++ userSelect: "todo",
+```
 
+### [willChange](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change)
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- will-change: todo;
+
+// React Native
++ willChange: "todo",
+```
+
+### [touchAction](https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action)
+
+desccc
+
+#### **Type:** `'auto' | 'inherit' | 'manipulation' | 'none' | 'pan-down' | 'pan-left' | 'pan-right' | 'pan-up' | 'pan-x' | 'pan-y' | 'pinch-zoom'`
+
+#### Conversion
+
+```diff
+// CSS
+- touch-action: pan-down;
+
+// React Native
++ touchAction: "pan-down",
+```
