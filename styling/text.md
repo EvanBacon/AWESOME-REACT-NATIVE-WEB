@@ -11,7 +11,7 @@ description: >-
 
 ### [textIndent](https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent)
 
-desccc
+Sets the length of empty space \(indentation\) that is put before lines of text in a block.
 
 #### **Type:** `number | string`
 
@@ -19,47 +19,47 @@ desccc
 
 ```diff
 // CSS
-- text-indent: todo;
+- text-indent: 30px;
 
 // React Native
-+ textIndent: "todo",
++ textIndent: 30,
 ```
 
 ### [textOverflow](https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow)
 
-desccc
+Sets how hidden overflow content is signaled to users. It can be clipped, display an ellipsis \('`…`'\), or display a custom string.
 
-#### **Type:** `string`
+#### **Type:** `string | 'each-line' | 'hanging' | Array<T>`
 
 #### Conversion
 
 ```diff
 // CSS
-- text-overflow: todo;
+- text-overflow: 5px hanging each-line;
 
 // React Native
-+ textOverflow: "todo",
++ textOverflow: [5, "hanging", "each-line"],
 ```
 
 ### [textRendering](https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering)
 
-desccc
+Provides information to the rendering engine about what to optimize for when rendering text. The browser makes trade-offs among speed, legibility, and geometric precision.
 
-#### **Type:** `'auto', 'geometricPrecision', 'optimizeLegibility', 'optimizeSpeed'`
+#### **Type:** `'auto' | 'geometricPrecision' | 'optimizeLegibility' | 'optimizeSpeed'`
 
 #### Conversion
 
 ```diff
 // CSS
-- text-rendering: todo;
+- text-rendering: optimizeLegibility;
 
 // React Native
-+ textRendering: "todo",
++ textRendering: "optimizeLegibility",
 ```
 
 ### [unicodeBidi](https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi)
 
-desccc
+The **`unicodeBidi`** property, together with the `direction` property, determines how bidirectional text in a document is handled. For example, if a block of content contains both left-to-right and right-to-left text, the user-agent uses a complex Unicode algorithm to decide how to display the text. The `unicodeBidi` property overrides this algorithm and allows the developer to control the text embedding.
 
 #### **Type:** `'normal','bidi-override','embed','isolate','isolate-override','plaintext'`
 
@@ -67,15 +67,15 @@ desccc
 
 ```diff
 // CSS
-- unicode-bidi: todo;
+- unicode-bidi: embed;
 
 // React Native
-+ unicodeBidi: "todo",
++ unicodeBidi: "embed",
 ```
 
 ### [whiteSpace](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space)
 
-desccc
+Sets how [white space](https://developer.mozilla.org/en-US/docs/Glossary/whitespace) inside an element is handled. **Note:** To make words break _within themselves_, use [`overflow-wrap`](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap), [`word-break`](https://developer.mozilla.org/en-US/docs/Web/CSS/word-break), or [`hyphens`](https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens) instead.
 
 #### **Type:** `string`
 
@@ -83,15 +83,15 @@ desccc
 
 ```diff
 // CSS
-- white-space: todo;
+- white-space: word-break;
 
 // React Native
-+ whiteSpace: "todo",
++ whiteSpace: "word-break",
 ```
 
 ### [wordBreak](https://developer.mozilla.org/en-US/docs/Web/CSS/word-break)
 
-desccc
+Sets whether line breaks appear wherever the text would otherwise overflow its content box.
 
 #### **Type:** `'normal', 'break-all', 'break-word', 'keep-all'`
 
@@ -99,47 +99,35 @@ desccc
 
 ```diff
 // CSS
-- word-break: todo;
+- word-break: break-all;
 
 // React Native
-+ wordBreak: "todo",
++ wordBreak: "break-all",
 ```
 
 ### [wordWrap](https://developer.mozilla.org/en-US/docs/Web/CSS/word-wrap)
 
-desccc
+Applies to inline elements, setting whether the browser should insert line breaks within an otherwise unbreakable string to prevent text from overflowing its line box.
 
-#### **Type:** `string`
+> In CSS `word-wrap` is also known as `overflow-wrap`
+
+#### **Type:** `'normal' | 'anywhere' | 'break-word'`
 
 #### Conversion
 
 ```diff
 // CSS
-- word-wrap: todo;
+- word-wrap: anywhere;
 
 // React Native
-+ wordWrap: "todo",
++ wordWrap: "anywhere",
 ```
 
-### MozOsxFontSmoothing
+### [WebkitFontSmoothing](https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth)
 
-desccc
+### [MozOsxFontSmoothing](https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth)
 
-#### **Type:** `string`
-
-#### Conversion
-
-```diff
-// CSS
-- grid-auto-columns: todo;
-
-// React Native
-+ gridAutoColumns: "MozOsxFontSmoothing",
-```
-
-### WebkitFontSmoothing
-
-desccc
+Controls the application of anti-aliasing when fonts are rendered.
 
 #### **Type:** `string`
 
@@ -147,9 +135,10 @@ desccc
 
 ```diff
 // CSS
-- grid-auto-columns: todo;
+- font-smooth: always;
 
 // React Native
-+ gridAutoColumns: "WebkitFontSmoothing",
++ WebkitFontSmoothing: "always",
++ MozOsxFontSmoothing: "always",
 ```
 
