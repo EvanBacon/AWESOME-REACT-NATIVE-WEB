@@ -1,6 +1,7 @@
 ---
 description: >-
-  In addition to the default transform style properties provided by React Native. React Native for web also provides the following.
+  In addition to the default transform style properties provided by React
+  Native. React Native for web also provides the following.
 ---
 
 # Transforms
@@ -41,7 +42,7 @@ Determines the position at which the viewer is looking. It is used as the vanish
 
 ### [transformOrigin](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
 
-The transformation origin is the point around which a transformation is applied. For example, the transformation origin of the rotate() function is the center of rotation. (This property is applied by first translating the element by the negated value of the property, then applying the element's transform, then translating by the property value.)
+The transformation origin is the point around which a transformation is applied. For example, the transformation origin of the rotate\(\) function is the center of rotation. \(This property is applied by first translating the element by the negated value of the property, then applying the element's transform, then translating by the property value.\)
 
 #### **Type:** `string`
 
@@ -72,3 +73,4 @@ Sets whether children of an element are positioned in the 3D space or are flatte
 // React Native
 + transformStyle: 'preserve-3d',
 ```
+

@@ -9,7 +9,7 @@ description: >-
 
 ## What can it do?
 
-With CSS Animations in React Native (for web) we can create awesome effects with the components on the screen. When you define (at minimum) a component's `animationDuration` style property, then any state change that effects that component's style will create an implicit interpolation between the old value and the new one.
+With CSS Animations in React Native \(for web\) we can create awesome effects with the components on the screen. When you define \(at minimum\) a component's `animationDuration` style property, then any state change that effects that component's style will create an implicit interpolation between the old value and the new one.
 
 ## The API
 
@@ -113,7 +113,7 @@ If multiple values are specified, each time the animation is played the next val
 
 ### [animationKeyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-key-frames)
 
-Used to control the intermediate steps in an animation sequence by defining styles for keyframes (or waypoints) along the animation sequence. This gives more control over the intermediate steps of the animation sequence than transitions.
+Used to control the intermediate steps in an animation sequence by defining styles for keyframes \(or waypoints\) along the animation sequence. This gives more control over the intermediate steps of the animation sequence than transitions.
 
 #### **Type:** `string | Object | Array<string, Object>`
 
@@ -180,3 +180,4 @@ The `animationTimingFunction` CSS property sets how an animation progresses thro
 // React Native
 + animationTimingFunction: "ease-in",
 ```
+

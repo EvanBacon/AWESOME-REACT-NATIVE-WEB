@@ -1,102 +1,78 @@
 ---
-description: >-
-  CSS Grids
+description: CSS Grids
 ---
 
 # Grids
 
-### `gridAutoColumns`
+## `gridAutoColumns`
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string | No | Web |
 
----
+## `gridAutoFlow`
 
-### `gridAutoFlow`
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string | No | Web |
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+## `gridAutoRows`
 
----
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string | No | Web |
 
-### `gridAutoRows`
+## `gridColumnEnd`
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string | No | Web |
 
----
+## `gridColumnGap`
 
-### `gridColumnEnd`
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string | No | Web |
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+## `gridColumnStart`
 
----
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string | No | Web |
 
-### `gridColumnGap`
+## `gridRowEnd`
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string | No | Web |
 
----
+## `gridRowGap`
 
-### `gridColumnStart`
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string | No | Web |
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+## `gridRowStart`
 
----
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string | No | Web |
 
-### `gridRowEnd`
+## `gridTemplateColumns`
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string | No | Web |
 
----
+## `gridTemplateRows`
 
-### `gridRowGap`
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string | No | Web |
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+## `gridTemplateAreas`
 
----
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string | No | Web |
 
-### `gridRowStart`
-
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
-
----
-
-### `gridTemplateColumns`
-
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
-
----
-
-### `gridTemplateRows`
-
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
-
----
-
-### `gridTemplateAreas`
-
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
-
----

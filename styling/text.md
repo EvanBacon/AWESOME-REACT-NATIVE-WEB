@@ -1,80 +1,65 @@
 ---
 description: >-
-  React Native for web provides access to browser-only style properties. The following styles apply to any primitive that extends `TextViewStylePropTypes` like `<TextInput />`.
+  React Native for web provides access to browser-only style properties. The
+  following styles apply to any primitive that extends `TextViewStylePropTypes`
+  like `<TextInput />`.
 ---
 
-# Text Styles
+# Text
 
-### `textIndent`
+## `textIndent`
 
 desc
 
-| Type                  | Required | Platform |
-| --------------------- | -------- | -------- |
-| enum(number, string), | No       | Web      |
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| enum\(number, string\), | No | Web |
 
----
+## `textOverflow`
 
-### `textOverflow`
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string, | No | Web |
 
-| Type    | Required | Platform |
-| ------- | -------- | -------- |
-| string, | No       | Web      |
+## `textRendering`
 
----
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| enum\('auto', 'geometricPrecision', 'optimizeLegibility', 'optimizeSpeed'\), | No | Web |
 
-### `textRendering`
+## `unicodeBidi`
 
-| Type                                                                       | Required | Platform |
-| -------------------------------------------------------------------------- | -------- | -------- |
-| enum('auto', 'geometricPrecision', 'optimizeLegibility', 'optimizeSpeed'), | No       | Web      |
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| enum\('normal','bidi-override','embed','isolate','isolate-override','plaintext'\), | No | Web |
 
----
+## `whiteSpace`
 
-### `unicodeBidi`
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string, | No | Web |
 
-| Type                                                                             | Required | Platform |
-| -------------------------------------------------------------------------------- | -------- | -------- |
-| enum('normal','bidi-override','embed','isolate','isolate-override','plaintext'), | No       | Web      |
+## `wordBreak`
 
----
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| enum\('normal', 'break-all', 'break-word', 'keep-all'\), | No | Web |
 
-### `whiteSpace`
+## `wordWrap`
 
-| Type    | Required | Platform |
-| ------- | -------- | -------- |
-| string, | No       | Web      |
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string, | No | Web |
 
----
+## `MozOsxFontSmoothing`
 
-### `wordBreak`
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string, | No | Web |
 
-| Type                                                   | Required | Platform |
-| ------------------------------------------------------ | -------- | -------- |
-| enum('normal', 'break-all', 'break-word', 'keep-all'), | No       | Web      |
+## `WebkitFontSmoothing`
 
----
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string, | No | Web |
 
-### `wordWrap`
-
-| Type    | Required | Platform |
-| ------- | -------- | -------- |
-| string, | No       | Web      |
-
----
-
-### `MozOsxFontSmoothing`
-
-| Type    | Required | Platform |
-| ------- | -------- | -------- |
-| string, | No       | Web      |
-
----
-
-### `WebkitFontSmoothing`
-
-| Type    | Required | Platform |
-| ------- | -------- | -------- |
-| string, | No       | Web      |
-
----

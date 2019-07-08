@@ -1,49 +1,43 @@
 ---
-description: >-
-  CSS IXD
+description: CSS IXD
 ---
 
 # Interactions
 
+## Interactions
+
+#### Props
+
+* [`cursor`](https://github.com/EvanBacon/React-Native-Web-Tricks/tree/e6faf7b467489e770542061d2f505b2507bdf1d8/interaction-prop-types/README.md#cursor)
+* [`userSelect`](https://github.com/EvanBacon/React-Native-Web-Tricks/tree/e6faf7b467489e770542061d2f505b2507bdf1d8/interaction-prop-types/README.md#userSelect)
+* [`willChange`](https://github.com/EvanBacon/React-Native-Web-Tricks/tree/e6faf7b467489e770542061d2f505b2507bdf1d8/interaction-prop-types/README.md#willChange)
+* [`touchAction`](https://github.com/EvanBacon/React-Native-Web-Tricks/tree/e6faf7b467489e770542061d2f505b2507bdf1d8/interaction-prop-types/README.md#touchAction)
+
+## Reference
+
 ### Props
 
-- [`cursor`](../interaction-prop-types/#cursor)
-- [`userSelect`](../interaction-prop-types/#userSelect)
-- [`willChange`](../interaction-prop-types/#willChange)
-- [`touchAction`](../interaction-prop-types/#touchAction)
+#### `cursor`
 
----
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string | No | Web |
 
-# Reference
+#### `userSelect`
 
-## Props
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string | No | Web |
 
-### `cursor`
+#### `willChange`
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| string | No | Web |
 
----
+#### `touchAction`
 
-### `userSelect`
+| Type | Required | Platform |
+| :--- | :--- | :--- |
+| enum\('auto', 'inherit', 'manipulation', 'none', 'pan-down', 'pan-left', 'pan-right', 'pan-up', 'pan-x', 'pan-y', 'pinch-zoom'\) | No | Web |
 
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
-
----
-
-### `willChange`
-
-| Type   | Required | Platform |
-| ------ | -------- | -------- |
-| string | No       | Web      |
-
----
-
-### `touchAction`
-
-| Type                                                                                                                           | Required | Platform |
-| ------------------------------------------------------------------------------------------------------------------------------ | -------- | -------- |
-| enum('auto', 'inherit', 'manipulation', 'none', 'pan-down', 'pan-left', 'pan-right', 'pan-up', 'pan-x', 'pan-y', 'pinch-zoom') | No       | Web      |

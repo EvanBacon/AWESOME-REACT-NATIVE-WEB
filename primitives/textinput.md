@@ -1,6 +1,7 @@
 ---
 description: >-
-  React Native for web adds the following features to the React Native <TextInput /> element.
+  React Native for web adds the following features to the React Native
+  <TextInput /> element.
 ---
 
 # TextInput
@@ -40,3 +41,4 @@ Whether an element is resizable, and if so, in which directions.
 // React Native
 + <TextInput resize="both" />
 ```
+

@@ -1,6 +1,7 @@
 ---
 description: >-
-  React Native for web adds the following features to the React Native <View /> element.
+  React Native for web adds the following features to the React Native <View />
+  element.
 ---
 
 # View
@@ -29,7 +30,7 @@ Can the user drag the element around. If this attribute is not set, its default 
 
 The `onContextMenu` method is invoked when the user attempts to open a context menu. This event is typically triggered by clicking the **right mouse button**, or by pressing the context menu key. In the latter case, the context menu is displayed at the bottom left of the focused element, unless the element is a tree, in which case the context menu is displayed at the bottom left of the current row.
 
-Any right-click event that is not disabled (by calling the event's `preventDefault()` method) will result in the method being invoked.
+Any right-click event that is not disabled \(by calling the event's `preventDefault()` method\) will result in the method being invoked.
 
 #### **Type:** `Function`
 
@@ -70,7 +71,7 @@ The exact meaning of an `itemType`'s global identifier is provided by the defini
 
 Properties that are not descendants of an element with the `itemScope` attribute can be associated with an item using the global attribute `itemRef`.
 
-`itemRef` provides a list of element IDs (not `itemID`s) elsewhere in the document, with additional properties.
+`itemRef` provides a list of element IDs \(not `itemID`s\) elsewhere in the document, with additional properties.
 
 The `itemRef` attribute can only be specified on elements that have an `itemScope` attribute specified.
 
@@ -88,7 +89,7 @@ The `itemRef` attribute can only be specified on elements that have an `itemScop
 
 ### [itemProp](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop)
 
-The `itemProp` global attribute is used to add properties to an item. Every HTML (Not JSX) element can have an `itemProp` attribute specified, and an `itemProp` consists of a name-value pair. Each name-value pair is called a **property**, and a group of one or more properties forms an item. Property values are either a string or a URL and can be associated with a very wide range of elements including `<WebView />`, `<Image />`, and `<Expo.Video />`.
+The `itemProp` global attribute is used to add properties to an item. Every HTML \(Not JSX\) element can have an `itemProp` attribute specified, and an `itemProp` consists of a name-value pair. Each name-value pair is called a **property**, and a group of one or more properties forms an item. Property values are either a string or a URL and can be associated with a very wide range of elements including `<WebView />`, `<Image />`, and `<Expo.Video />`.
 
 #### **Type:** `string`
 
@@ -104,7 +105,7 @@ The `itemProp` global attribute is used to add properties to an item. Every HTML
 
 ### [itemScope](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope)
 
-`itemScope` is a `boolean` global attribute that defines the scope of associated metadata. Specifying the `itemScope` attribute for an element creates a new item, which results in a number of name-value pairs that are associated with the element. A related attribute, `itemType`, is used to specify the valid URL of a vocabulary (such as [schema.org](https://schema.org/)) that describes the item and its properties context.
+`itemScope` is a `boolean` global attribute that defines the scope of associated metadata. Specifying the `itemScope` attribute for an element creates a new item, which results in a number of name-value pairs that are associated with the element. A related attribute, `itemType`, is used to specify the valid URL of a vocabulary \(such as [schema.org](https://schema.org/)\) that describes the item and its properties context.
 
 Every primitive React Native web element may have an `itemScope` attribute specified. An `itemScope` element that does not have an associated `itemType` must have an associated `itemRef`.
 
@@ -132,7 +133,7 @@ Every primitive React Native web element may have an `itemScope` attribute speci
 
 ### [itemType](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype)
 
-The global attribute `itemType` specifies the URL of the vocabulary that will be used to define `itemProp`'s (item properties) in the data structure. `itemScope` is used to set the scope of where in the data structure the vocabulary set by `itemType` will be active.
+The global attribute `itemType` specifies the URL of the vocabulary that will be used to define `itemProp`'s \(item properties\) in the data structure. `itemScope` is used to set the scope of where in the data structure the vocabulary set by `itemType` will be active.
 
 Google and other major search engines support the [schema.org](http://schema.org/) vocabulary for structured data. This vocabulary defines a standard set of type names and property names. For example, [`MusicEvent`](http://schema.org/MusicEvent) indicates a concert performance, with [`startDate`](http://schema.org/startDate) and [`location`](http://schema.org/location) properties specifying the concert's key details. In this case, [`MusicEvent`](http://schema.org/MusicEvent) would be the URL used by `itemType`, with [`startDate`](http://schema.org/startDate) and [`location`](http://schema.org/location) as `itemProp`'s which MusicEvent defines.
 
@@ -153,3 +154,4 @@ Google and other major search engines support the [schema.org](http://schema.org
 +  <Text itemProp="name">Brick</Text>
 + </View>
 ```
+
