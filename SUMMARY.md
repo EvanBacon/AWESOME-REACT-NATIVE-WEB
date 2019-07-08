@@ -1,6 +1,9 @@
 # Table of contents
 
 * [React Native Web Tips](README.md)
+* [AWESOME!](awesome.md)
+* [FAQ](faq.md)
+* [Anti-Pitch](anti-pitch.md)
 
 ## Primitives
 
@@ -12,12 +15,16 @@
 
 ## Styling
 
-* [Input Events](styling/input-events.md)
 * [Animations](styling/animations.md)
 * [Transitions](styling/transitions.md)
 * [Grids](styling/grids.md)
-* [Image](styling/image.md)
 * [Interactions](styling/interactions.md)
 * [Text](styling/text.md)
 * [Transforms](styling/transforms.md)
+
+## Bundling
+
+* [Intro to Bundling](bundling/intro-to-bundling.md)
+* [Babel Preset](bundling/babel-preset.md)
+* [Webpack Config](bundling/webpack-config.md)
 
