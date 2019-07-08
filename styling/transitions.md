@@ -64,3 +64,4 @@ This value denotes the speed curve of the transition effect. Learn more about [C
 transitionTimingFunction: "linear"
 transitionTimingFunction: ["ease", "ease-out"]
 ```
+

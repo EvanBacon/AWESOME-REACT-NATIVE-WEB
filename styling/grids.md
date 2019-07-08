@@ -1,5 +1,5 @@
 ---
-description:
+description: null
 ---
 
 # Grids
@@ -8,139 +8,139 @@ description:
 
 ## [gridAutoColumns](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns)
 
-desccc
+Specifies the size of an implicitly-created grid column [track](https://developer.mozilla.org/en-US/docs/Glossary/grid_tracks).
 
-#### **Type:** `string`
+### **Type:** `string | number`
 
-#### Conversion
+### Conversion
 
 ```diff
 // CSS
-- grid-auto-columns: todo;
+- grid-auto-columns: 100px;
 
 // React Native
-+ gridAutoColumns: "todo",
++ gridAutoColumns: 100,
 ```
 
 ## [gridAutoFlow](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow)
 
-desccc
+Controls how the auto-placement algorithm works, specifying exactly how auto-placed items get flowed into the grid.
 
-#### **Type:** `string`
+### **Type:** `string`
 
-#### Conversion
+### Conversion
 
 ```diff
 // CSS
-- grid-auto-flow: todo;
+- grid-auto-flow: auto;
 
 // React Native
-+ gridAutoFlow: "todo",
++ gridAutoFlow: "auto",
 ```
 
 ## [gridAutoRows](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows)
 
-desccc
+Specifies the size of an implicitly-created grid row track.
 
-#### **Type:** `string`
+### **Type:** `string`
 
-#### Conversion
+### Conversion
 
 ```diff
 // CSS
-- grid-auto-rows: todo;
+- grid-auto-rows: auto;
 
 // React Native
-+ gridAutoRows: "todo",
++ gridAutoRows: "auto",
 ```
 
 ## [gridColumnEnd](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-end)
 
-desccc
+Specifies a grid item’s end position within the grid column by contributing a line, a span, or nothing \(automatic\) to its grid placement, thereby specifying the block-end edge of its [grid area](https://developer.mozilla.org/en-US/docs/Glossary/grid_areas).
 
-#### **Type:** `string`
+### **Type:** `string | number`
 
-#### Conversion
+### Conversion
 
 ```diff
 // CSS
-- grid-column-end: todo;
+- grid-column-end: 2;
 
 // React Native
-+ gridColumnEnd: "todo",
++ gridColumnEnd: 2,
 ```
 
 ## [gridColumnGap](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-gap)
 
-desccc
+Sets the size of the gap \([gutter](https://developer.mozilla.org/en-US/docs/Glossary/Gutters)\) between an element's columns.
 
-#### **Type:** `string`
+### **Type:** `string | number`
 
-#### Conversion
+### Conversion
 
 ```diff
 // CSS
-- grid-column-gap: todo;
+- grid-column-gap: 8;
 
 // React Native
-+ gridColumnGap: "todo",
++ gridColumnGap: 8,
 ```
 
 ## [gridColumnStart](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-start)
 
-desccc
+Specifies a grid item’s start position within the grid column by contributing a line, a span, or nothing \(automatic\) to its grid placement. This start position defines the block-start edge of the [grid area](https://developer.mozilla.org/en-US/docs/Glossary/grid_areas).
 
-#### **Type:** `string`
+### **Type:** `'row' | 'column' | 'dense'`
 
-#### Conversion
+### Conversion
 
 ```diff
 // CSS
-- grid-column-start: todo;
+- grid-column-start: column;
 
 // React Native
-+ gridColumnStart: "todo",
++ gridColumnStart: "column",
 ```
 
 ## [gridRowEnd](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-Row-End)
 
-desccc
+Specifies a grid item’s end position within the grid row by contributing a line, a span, or nothing \(automatic\) to its grid placement, thereby specifying the inline-end edge of its [grid area](https://developer.mozilla.org/en-US/docs/Glossary/grid_areas).
 
-#### **Type:** `string`
+### **Type:** `string | number`
 
-#### Conversion
+### Conversion
 
 ```diff
 // CSS
-- grid-row-end: todo;
+- grid-row-end: auto;
 
 // React Native
-+ gridRowEnd: "todo",
++ gridRowEnd: "auto",
 ```
 
 ## [gridRowGap](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-Row-Gap)
 
-desccc
+Sets the size of the gap \([gutter](https://developer.mozilla.org/en-US/docs/Glossary/gutters)\) between an element's grid rows.
 
-#### **Type:** `string`
+### **Type:** `string | number`
 
-#### Conversion
+### Conversion
 
 ```diff
 // CSS
-- grid-row-gap: todo;
+- grid-row-gap: 8;
 
 // React Native
-+ gridRowGap: "todo",
++ gridRowGap: 8,
 ```
 
 ## [gridRowStart](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-Row-Start)
 
-desccc
+Specifies a grid item’s start position within the grid row by contributing a line, a span, or nothing \(automatic\) to its grid placement, thereby specifying the inline-start edge of its [grid area](https://developer.mozilla.org/en-US/docs/Glossary/grid_areas).
 
-#### **Type:** `string`
+### **Type:** `string | number`
 
-#### Conversion
+### Conversion
 
 ```diff
 // CSS
@@ -152,48 +152,49 @@ desccc
 
 ## [gridTemplateColumns](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-Template-Columns)
 
-desccc
+Defines the line names and track sizing functions of the [grid columns](https://developer.mozilla.org/en-US/docs/Glossary/grid_column).
 
-#### **Type:** `string`
+### **Type:** `string | number | Array<string | number>`
 
-#### Conversion
+### Conversion
 
 ```diff
 // CSS
-- grid-template-columns: todo;
+- grid-template-columns: 100px 200px;
 
 // React Native
-+ gridTemplateColumns: "todo",
++ gridTemplateColumns: [100, 200],
 ```
 
 ## [gridTemplateRows](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-Template-Rows)
 
-desccc
+Defines the line names and track sizing functions of the [grid rows](https://developer.mozilla.org/en-US/docs/Glossary/grid_rows).
 
-#### **Type:** `string`
+### **Type:** `string | number | Array<string | number>`
 
-#### Conversion
+### Conversion
 
 ```diff
 // CSS
-- grid-template-rows: todo;
+- grid-template-rows: 40px 4px 40px;
 
 // React Native
-+ gridTemplateRows: "todo",
++ gridTemplateRows: [40, 4, 40],
 ```
 
 ## [gridTemplateAreas](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-Template-Areas)
 
-desccc
+Specifies named [grid areas](https://developer.mozilla.org/en-US/docs/Glossary/grid_areas).
 
-#### **Type:** `string`
+### **Type:** `string | 'none'`
 
-#### Conversion
+### Conversion
 
 ```diff
 // CSS
-- grid-template-areas: todo;
+- grid-template-areas: "a b c";
 
 // React Native
-+ gridTemplateAreas: "todo",
++ gridTemplateAreas: "a b c",
 ```
+

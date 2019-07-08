@@ -1,5 +1,5 @@
 ---
-description:
+description: null
 ---
 
 # Interactions
@@ -69,3 +69,4 @@ desccc
 // React Native
 + touchAction: "pan-down",
 ```
+

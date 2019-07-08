@@ -152,3 +152,4 @@ desccc
 // React Native
 + gridAutoColumns: "WebkitFontSmoothing",
 ```
+
