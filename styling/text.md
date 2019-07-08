@@ -7,58 +7,148 @@ description: >-
 
 # Text
 
-## `textIndent`
+## The API
 
-desc
+### [textIndent](https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent)
 
-| Type                    | Required | Platform |
-| :---------------------- | :------- | :------- |
-| enum\(number, string\), | No       | Web      |
+desccc
 
-## `textOverflow`
+#### **Type:** `number | string`
 
-| Type    | Required | Platform |
-| :------ | :------- | :------- |
-| string, | No       | Web      |
+#### Conversion
 
-## `textRendering`
+```diff
+// CSS
+- text-indent: todo;
 
-| Type                                                                         | Required | Platform |
-| :--------------------------------------------------------------------------- | :------- | :------- |
-| enum\('auto', 'geometricPrecision', 'optimizeLegibility', 'optimizeSpeed'\), | No       | Web      |
+// React Native
++ textIndent: "todo",
+```
 
-## `unicodeBidi`
+### [textOverflow](https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow)
 
-| Type                                                                               | Required | Platform |
-| :--------------------------------------------------------------------------------- | :------- | :------- |
-| enum\('normal','bidi-override','embed','isolate','isolate-override','plaintext'\), | No       | Web      |
+desccc
 
-## `whiteSpace`
+#### **Type:** `string`
 
-| Type    | Required | Platform |
-| :------ | :------- | :------- |
-| string, | No       | Web      |
+#### Conversion
 
-## `wordBreak`
+```diff
+// CSS
+- text-overflow: todo;
 
-| Type                                                     | Required | Platform |
-| :------------------------------------------------------- | :------- | :------- |
-| enum\('normal', 'break-all', 'break-word', 'keep-all'\), | No       | Web      |
+// React Native
++ textOverflow: "todo",
+```
 
-## `wordWrap`
+### [textRendering](https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering)
 
-| Type    | Required | Platform |
-| :------ | :------- | :------- |
-| string, | No       | Web      |
+desccc
 
-## `MozOsxFontSmoothing`
+#### **Type:** `'auto', 'geometricPrecision', 'optimizeLegibility', 'optimizeSpeed'`
 
-| Type    | Required | Platform |
-| :------ | :------- | :------- |
-| string, | No       | Web      |
+#### Conversion
 
-## `WebkitFontSmoothing`
+```diff
+// CSS
+- text-rendering: todo;
 
-| Type    | Required | Platform |
-| :------ | :------- | :------- |
-| string, | No       | Web      |
+// React Native
++ textRendering: "todo",
+```
+
+### [unicodeBidi](https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi)
+
+desccc
+
+#### **Type:** `'normal','bidi-override','embed','isolate','isolate-override','plaintext'`
+
+#### Conversion
+
+```diff
+// CSS
+- unicode-bidi: todo;
+
+// React Native
++ unicodeBidi: "todo",
+```
+
+### [whiteSpace](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space)
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- white-space: todo;
+
+// React Native
++ whiteSpace: "todo",
+```
+
+### [wordBreak](https://developer.mozilla.org/en-US/docs/Web/CSS/word-break)
+
+desccc
+
+#### **Type:** `'normal', 'break-all', 'break-word', 'keep-all'`
+
+#### Conversion
+
+```diff
+// CSS
+- word-break: todo;
+
+// React Native
++ wordBreak: "todo",
+```
+
+### [wordWrap](https://developer.mozilla.org/en-US/docs/Web/CSS/word-wrap)
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- word-wrap: todo;
+
+// React Native
++ wordWrap: "todo",
+```
+
+### MozOsxFontSmoothing
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- grid-auto-columns: todo;
+
+// React Native
++ gridAutoColumns: "MozOsxFontSmoothing",
+```
+
+### WebkitFontSmoothing
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- grid-auto-columns: todo;
+
+// React Native
++ gridAutoColumns: "WebkitFontSmoothing",
+```
