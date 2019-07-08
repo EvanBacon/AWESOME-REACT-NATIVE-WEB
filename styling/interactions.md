@@ -8,7 +8,7 @@ description: null
 
 ### [cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)
 
-desccc
+Sets the type of cursor, if any, to show when the mouse pointer is over an element.
 
 #### **Type:** `string`
 
@@ -16,15 +16,15 @@ desccc
 
 ```diff
 // CSS
-- cursor: todo;
+- cursor: help;
 
 // React Native
-+ cursor: "todo",
++ cursor: "help",
 ```
 
 ### [userSelect](https://developer.mozilla.org/en-US/docs/Web/CSS/user-select)
 
-desccc
+Controls whether the user can select text. This doesn't have any effect on content loaded as [chrome](https://developer.mozilla.org/en-US/docs/Glossary/Chrome), except in textboxes.
 
 #### **Type:** `string`
 
@@ -32,15 +32,15 @@ desccc
 
 ```diff
 // CSS
-- user-select: todo;
+- user-select: text;
 
 // React Native
-+ userSelect: "todo",
++ userSelect: "text",
 ```
 
 ### [willChange](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change)
 
-desccc
+Hints to browsers how an element is expected to change. Browsers may set up optimizations before an element is actually changed. These kinds of optimizations can increase the responsiveness of a page by doing potentially expensive work before they are actually required.
 
 #### **Type:** `string`
 
@@ -48,15 +48,15 @@ desccc
 
 ```diff
 // CSS
-- will-change: todo;
+- will-change: transform;
 
 // React Native
-+ willChange: "todo",
++ willChange: "transform",
 ```
 
 ### [touchAction](https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action)
 
-desccc
+Sets how an element's region can be manipulated by a touchscreen user \(for example, by zooming features built into the browser\).
 
 #### **Type:** `'auto' | 'inherit' | 'manipulation' | 'none' | 'pan-down' | 'pan-left' | 'pan-right' | 'pan-up' | 'pan-x' | 'pan-y' | 'pinch-zoom'`
 
