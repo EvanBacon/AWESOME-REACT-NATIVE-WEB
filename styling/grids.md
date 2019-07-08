@@ -1,3 +1,8 @@
+---
+description: >-
+  CSS Grids
+---
+
 # Grids
 
 ### `gridAutoColumns`
