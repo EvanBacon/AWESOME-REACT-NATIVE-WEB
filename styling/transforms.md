@@ -10,7 +10,7 @@ description: >-
 
 ### [perspective](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective)
 
-Desc
+The **`perspective`** style property determines the distance between the z=0 plane and the user in order to give a 3D-positioned element some perspective. Each 3D element with z&gt;0 becomes larger; each 3D-element with z&lt;0 becomes smaller. The strength of the effect is determined by the value of this property.
 
 #### **Type:** `number | string`
 
