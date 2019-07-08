@@ -1,4 +1,4 @@
-# [Awesome Web!](https://baconbrix.gitbook.io/react-native-web/)
+# Awesome Web!
 
 💙 A list of awesome React Native web & Expo web projects you can try now! ✨
 
@@ -30,9 +30,10 @@
 ## Videos
 
 * [Nicolas Gallagher - Twitter Lite, React Native, and Progressive Web Apps ](https://www.youtube.com/watch?v=tFFn39lLO-U)
-* Uber Restaurant: [https://www.youtube.com/watch?v=RV9rxrNIxnY](https://www.youtube.com/watch?v=RV9rxrNIxnY)
+* [Uber Restaurant](https://www.youtube.com/watch?v=RV9rxrNIxnY)
 * [Universal App Development - Evan Bacon \(@Baconbrix\)](https://www.youtube.com/watch?v=UcjCuWy81YM)
 * [How to Build a Website with React Native](https://www.youtube.com/watch?v=Czih6w57P9A)
+* [Expo for web – by Evan Bacon, Expo](https://www.youtube.com/watch?reload=9&v=jt7NCutWcUU)
 
 ## Articles
 
