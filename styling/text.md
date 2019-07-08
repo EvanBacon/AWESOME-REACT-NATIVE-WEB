@@ -1,6 +1,13 @@
+---
+description: >-
+  React Native for web provides access to browser-only style properties. The following styles apply to any primitive that extends `TextViewStylePropTypes` like `<TextInput />`.
+---
+
 # Text Styles
 
 ### `textIndent`
+
+desc
 
 | Type                  | Required | Platform |
 | --------------------- | -------- | -------- |
