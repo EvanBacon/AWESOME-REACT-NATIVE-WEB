@@ -8,10 +8,8 @@
 ## Primitives
 
 * [Intro to Primitives](primitives/intro-to-primitives.md)
-* [Image](primitives/image.md)
-* [TextInput](primitives/textinput.md)
-* [Text](primitives/text.md)
 * [View](primitives/view.md)
+* [TextInput](primitives/textinput.md)
 
 ## Styling
 

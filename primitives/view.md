@@ -6,6 +6,8 @@ description: >-
 
 # View
 
+The props shown here come from the `ViewPropTypes` object. Primitives that extend `ViewPropTypes` also have access to these custom props for example: `<Image /> <Text /> <TextInput /> <ScrollView />` 
+
 ## Props
 
 ### [draggable](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/draggable)
