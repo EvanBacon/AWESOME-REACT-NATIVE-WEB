@@ -1,17 +1,14 @@
-# AWESOME!
+# Awesome Web!
 
-💙 A list of awesome React Native & Expo web projects you can try now! ✨
+💙 A list of awesome React Native web & Expo web projects you can try now! ✨
 
-### Websites
+### Websites & PWAs
 
 * [Twitter](https://twitter.com)
 * [Major League Soccer](https://matchcenter.mlssoccer.com/)
 * Devhub
   * [Website](https://devhubapp.com)
   * [Source](https://github.com/devhubapp/devhub/)
-
-### Demos
-
 * Instagram Clone
   * [Website](https://Expogram.netlify.com)
 * Crossy Road Clone

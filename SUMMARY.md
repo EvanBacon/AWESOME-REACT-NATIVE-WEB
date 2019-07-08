@@ -1,6 +1,6 @@
 # Table of contents
 
-* [AWESOME!](README.md)
+* [Awesome Web!](README.md)
 * [Intro](intro.md)
 * [FAQ](faq.md)
 * [Anti-Pitch](anti-pitch.md)
