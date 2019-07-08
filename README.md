@@ -1,4 +1,4 @@
-# Awesome Web!
+# [Awesome Web!](https://baconbrix.gitbook.io/react-native-web/)
 
 💙 A list of awesome React Native web & Expo web projects you can try now! ✨
 
