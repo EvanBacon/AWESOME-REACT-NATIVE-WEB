@@ -3,7 +3,7 @@ description: >-
   In addition to the default transform style properties provided by React Native. React Native for web also provides the following.
 ---
 
-# View Transforms
+# Transforms
 
 ## The API
 
