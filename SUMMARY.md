@@ -13,6 +13,7 @@
 
 ## Styling
 
+* [Aspect Ratio](styling/aspect-ratio.md)
 * [Animations](styling/animations.md)
 * [Transitions](styling/transitions.md)
 * [Grids](styling/grids.md)
