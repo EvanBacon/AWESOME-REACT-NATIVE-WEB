@@ -27,6 +27,9 @@
 * Lego Building
   * [Website](https://ldr.netlify.com)
   * [Source Code](https://github.com/EvanBacon/Lego-Expo)
+* Kitten Tricks
+  * [Website](https://akveo.github.io/react-native-ui-kitten/)
+  * [Source Code](https://github.com/akveo/kittenTricks)
 
 ## Videos
 
