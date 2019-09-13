@@ -13,6 +13,7 @@ This is collection of helpful information about using React Native for web & Exp
   * [Source](https://github.com/devhubapp/devhub/)
 * Instagram Clone
   * [Website](https://Expogram.netlify.com)
+  * [Source](https://github.com/evanbacon/instagram)
 * Crossy Road Clone
   * [Website](https://crossyroad.netlify.com)
   * [Source Code](https://github.com/EvanBacon/Expo-Crossy-Road)
@@ -28,6 +29,9 @@ This is collection of helpful information about using React Native for web & Exp
 * Lego Building
   * [Website](https://ldr.netlify.com)
   * [Source Code](https://github.com/EvanBacon/Lego-Expo)
+* Kitten Tricks
+  * [Website](https://akveo.github.io/react-native-ui-kitten/)
+  * [Source Code](https://github.com/akveo/kittenTricks)
 
 ## Videos
 
