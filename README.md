@@ -32,6 +32,9 @@ This is collection of helpful information about using React Native for web & Exp
 * Kitten Tricks
   * [Website](https://akveo.github.io/react-native-ui-kitten/)
   * [Source Code](https://github.com/akveo/kittenTricks)
+* Inspiration Native
+  * [Website](https://inspiration-native.netlify.com/)
+  * [Source Code](https://github.com/flexbox/inspiration-native)
 
 ## Videos
 
@@ -46,4 +49,4 @@ This is collection of helpful information about using React Native for web & Exp
 * [Data Camp: Porting practice to web](https://www.datacamp.com/community/tech/porting-practice-to-web-part1)
 * [How to: React Native Web app. A Happy Struggle.](https://blog.bitsrc.io/how-to-react-native-web-app-a-happy-struggle-aea7906f4903)
 * [Deploying Universal Apps with Amplify & Expo](https://blog.expo.io/deploying-universal-apps-with-amplify-expo-510c53021d42)
-
+* [React Native: Learn once, render anywhere](https://courses.davidl.fr/presentations/react-native-web/#/)
