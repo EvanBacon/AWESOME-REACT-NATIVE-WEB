@@ -13,7 +13,10 @@
 
 ## Styling
 
-- [Animations](styling/animations.md)
+### [Animations](styling/animations.md)
+
+- [`animationDelay`](styling/animations#animationdelay)
+
 - [Aspect Ratio](styling/aspect-ratio.md)
 - [Grids](styling/grids.md)
 - [Interactions](styling/interactions.md)
