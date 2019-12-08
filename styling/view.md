@@ -201,7 +201,11 @@ desccc
 
 ### [outlineColor](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-color)
 
-desccc
+An outline is a line that is drawn around elements (outside the borders) to make the element "stand out".
+
+The `outlineColor` property specifies the color of an outline.
+
+> **Note:** Always declare the `outlineStyle` property before the `outlineColor` property. An element must have an outline before you change the color of it.
 
 #### **Type:** `ColorPropType`
 
@@ -233,7 +237,7 @@ desccc
 
 ### [outlineStyle](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style)
 
-desccc
+An outline is a line that is drawn around elements (outside the borders) to make the element "stand out".
 
 #### **Type:** `string`
 
@@ -249,7 +253,9 @@ desccc
 
 ### [outlineWidth](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-width)
 
-desccc
+An outline is a line that is drawn around elements (outside the borders) to make the element "stand out".
+
+> **Note:** Always declare the `outlineStyle` property before the `outlineWidth` property. An element must have an outline before you change the width of it.
 
 #### **Type:** `enum(string, number)`
 
@@ -265,7 +271,7 @@ desccc
 
 ### [overscrollBehavior](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior)
 
-desccc
+The `overscrollBehavior` CSS property sets what a browser does when reaching the boundary of a scrolling area. It's a shorthand for `overscrollBehaviorX` and `overscrollBehaviorY`.
 
 #### **Type:** `enum('auto', 'contain', 'none')`
 
@@ -273,15 +279,15 @@ desccc
 
 ```diff
 // CSS
-- overscroll-behavior: todo;
+- overscroll-behavior: auto;
 
 // React Native
-+ overscrollBehavior: "todo",
++ overscrollBehavior: "auto",
 ```
 
 ### [overscrollBehaviorX](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior-x)
 
-desccc
+The `overscrollBehaviorX` CSS property sets the browser's behavior when the horizontal boundary of a scrolling area is reached.
 
 #### **Type:** `enum('auto', 'contain', 'none')`
 
@@ -289,15 +295,15 @@ desccc
 
 ```diff
 // CSS
-- overscroll-behavior-x: todo;
+- overscroll-behavior-x: contain;
 
 // React Native
-+ overscrollBehaviorX: "todo",
++ overscrollBehaviorX: "contain",
 ```
 
 ### [overscrollBehaviorY](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior-y)
 
-desccc
+The `overscrollBehaviorY` CSS property sets the browser's behavior when the vertical boundary of a scrolling area is reached.
 
 #### **Type:** `enum('auto', 'contain', 'none')`
 
@@ -305,17 +311,17 @@ desccc
 
 ```diff
 // CSS
-- overscroll-behavior-y: todo;
+- overscroll-behavior-y: contain;
 
 // React Native
-+ overscrollBehaviorY: "todo",
++ overscrollBehaviorY: "contain",
 ```
 
 ### [scrollbarWidth](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width)
 
-desccc
+The scrollbar-width property allows the author to set the maximum thickness of an element’s scrollbars when they are shown.
 
-#### **Type:** `enum('auto', 'none')`
+#### **Type:** `enum('auto', 'thin', 'none')`
 
 #### Conversion
 
