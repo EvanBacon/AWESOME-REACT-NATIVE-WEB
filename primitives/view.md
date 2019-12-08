@@ -1,159 +1,398 @@
 ---
 description: >-
-  React Native for web adds the following features to the React Native <View />
-  element.
+  React Native for web provides access to browser-only style properties. The following styles apply to any primitive that extends `ViewStylePropTypes` like Text, Image, TextInput, ScrollView, etc...
 ---
 
-# View
+# View Styles
 
-The props shown here come from the `ViewPropTypes` object. Primitives that extend `ViewPropTypes` also have access to these custom props for example: `<Image /> <Text /> <TextInput /> <ScrollView />` 
+## The API
 
-## Props
+### [backdropFilter](https://developer.mozilla.org/en-US/docs/Web/CSS/background-filter)
 
-### [draggable](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/draggable)
-
-Can the user drag the element around. If this attribute is not set, its default value is auto, which means drag behavior is the default browser behavior: only text selections, images, and links can be dragged.
-
-#### **Type:** `boolean`
-
-#### **Default:** `true`
-
-#### Conversion
-
-```diff
-// HTML
-- <div draggable="true"></div>
-
-// React Native
-+ <View draggable />
-```
-
-### [onContextMenu](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/oncontextmenu)
-
-The `onContextMenu` method is invoked when the user attempts to open a context menu. This event is typically triggered by clicking the **right mouse button**, or by pressing the context menu key. In the latter case, the context menu is displayed at the bottom left of the focused element, unless the element is a tree, in which case the context menu is displayed at the bottom left of the current row.
-
-Any right-click event that is not disabled \(by calling the event's `preventDefault()` method\) will result in the method being invoked.
-
-#### **Type:** `Function`
-
-#### Conversion
-
-```diff
-// HTML & JavaScript
-- <div id="noContextMenu"></div>
-
-- let element = document.getElementById('noContextMenu');
--
-- element.addEventListener('contextmenu', e => {
-- });
-
-// React Native
-+ <View onContextMenu={(e) => {}} />
-```
-
-### [itemID](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemid)
-
-Provides microdata in the form of a unique, global identifier of an item. An `itemID` attribute can only be specified for an element that has both `itemScope` and `itemType` attributes. Also, `itemID` can only be specified on elements that possess an itemscope attribute whose corresponding `itemType` refers to or defines a vocabulary that supports global identifiers.
-
-The exact meaning of an `itemType`'s global identifier is provided by the definition of that identifier within the specified vocabulary. The vocabulary defines whether several items with the same global identifier can coexist and, if so, how items with the same identifier are handled.
+desccc
 
 #### **Type:** `string`
 
 #### Conversion
 
 ```diff
-// HTML
-- <div itemid=""></div>
+// CSS
+- background-filter: todo;
 
 // React Native
-+ <View itemID="" />
++ backdropFilter: "todo",
 ```
 
-### [itemRef](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemref)
+### [backgroundAttachment](https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment)
 
-Properties that are not descendants of an element with the `itemScope` attribute can be associated with an item using the global attribute `itemRef`.
-
-`itemRef` provides a list of element IDs \(not `itemID`s\) elsewhere in the document, with additional properties.
-
-The `itemRef` attribute can only be specified on elements that have an `itemScope` attribute specified.
+desccc
 
 #### **Type:** `string`
 
 #### Conversion
 
 ```diff
-// HTML
-- <div itemref=""></div>
+// CSS
+- background-attachment: todo;
 
 // React Native
-+ <View itemRef="" />
++ backgroundAttachment: "todo",
 ```
 
-### [itemProp](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop)
+### [backgroundBlendMode](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode)
 
-The `itemProp` global attribute is used to add properties to an item. Every HTML \(Not JSX\) element can have an `itemProp` attribute specified, and an `itemProp` consists of a name-value pair. Each name-value pair is called a **property**, and a group of one or more properties forms an item. Property values are either a string or a URL and can be associated with a very wide range of elements including `<WebView />`, `<Image />`, and `<Expo.Video />`.
+desccc
 
 #### **Type:** `string`
 
 #### Conversion
 
 ```diff
-// HTML
-- <div itemprop="coder"></div>
+// CSS
+- background-blend-mode: todo;
 
 // React Native
-+ <View itemProp="coder" />
++ backgroundBlendMode: "todo",
 ```
 
-### [itemScope](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope)
+### [backgroundClip](https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip)
 
-`itemScope` is a `boolean` global attribute that defines the scope of associated metadata. Specifying the `itemScope` attribute for an element creates a new item, which results in a number of name-value pairs that are associated with the element. A related attribute, `itemType`, is used to specify the valid URL of a vocabulary \(such as [schema.org](https://schema.org/)\) that describes the item and its properties context.
-
-Every primitive React Native web element may have an `itemScope` attribute specified. An `itemScope` element that does not have an associated `itemType` must have an associated `itemRef`.
-
-#### **Type:** `boolean`
-
-#### Conversion
-
-```diff
-// HTML
-- <div itemscope itemtype="http://schema.org/Movie">
--   <h1 itemprop="name">Avatar</h1>
--   <span>Director: <span itemprop="director">James Cameron</span> (born August 16, 1954)</span>
--   <span itemprop="genre">Science fiction</span>
--   <a href="https://youtu.be/0AY1XIkX7bY" itemprop="trailer">Trailer</a>
-- </div>
-
-// React Native
-+ <View itemScope itemType="http://schema.org/Movie">
-+   <Text accessibilityRole="header" itemProp="name">Avatar</Text>
-+   <Text>Director: <Text itemProp="director">James Cameron</Text> (born August 16, 1954)</Text>
-+   <Text itemProp="genre">Science fiction</Text>
-+   <Text accessibilityRole="link" href="https://youtu.be/0AY1XIkX7bY" itemProp="trailer">Trailer</Text>
-+ </View>
-```
-
-### [itemType](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype)
-
-The global attribute `itemType` specifies the URL of the vocabulary that will be used to define `itemProp`'s \(item properties\) in the data structure. `itemScope` is used to set the scope of where in the data structure the vocabulary set by `itemType` will be active.
-
-Google and other major search engines support the [schema.org](http://schema.org/) vocabulary for structured data. This vocabulary defines a standard set of type names and property names. For example, [`MusicEvent`](http://schema.org/MusicEvent) indicates a concert performance, with [`startDate`](http://schema.org/startDate) and [`location`](http://schema.org/location) properties specifying the concert's key details. In this case, [`MusicEvent`](http://schema.org/MusicEvent) would be the URL used by `itemType`, with [`startDate`](http://schema.org/startDate) and [`location`](http://schema.org/location) as `itemProp`'s which MusicEvent defines.
+desccc
 
 #### **Type:** `string`
 
 #### Conversion
 
 ```diff
-// HTML
-- <div itemscope itemtype="http://schema.org/Product">
--  <span itemprop="brand">Supreme</span>
--  <span itemprop="name">Brick</span>
-- </div>
+// CSS
+- background-clip: todo;
 
 // React Native
-+ <View itemScope itemType="http://schema.org/Product">
-+  <Text itemProp="brand">Supreme</Text>
-+  <Text itemProp="name">Brick</Text>
-+ </View>
++ backgroundClip: "todo",
 ```
 
+### [backgroundImage](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- background-image: todo;
+
+// React Native
++ backgroundImage: "todo",
+```
+
+### [backgroundOrigin](https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin)
+
+desccc
+
+#### **Type:** `enum('border-box', 'content-box', 'padding-box')`
+
+#### Conversion
+
+```diff
+// CSS
+- background-origin: todo;
+
+// React Native
++ backgroundOrigin: "todo",
+```
+
+### [backgroundPosition](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- background-position: todo;
+
+// React Native
++ backgroundPosition: "todo",
+```
+
+### [backgroundRepeat](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat)
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- background-repeat: todo;
+
+// React Native
++ backgroundRepeat: "todo",
+```
+
+### [backgroundSize](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size)
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- background-size: todo;
+
+// React Native
++ backgroundSize: "todo",
+```
+
+### [boxShadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- box-shadow: todo;
+
+// React Native
++ boxShadow: "todo",
+```
+
+### [clip](https://developer.mozilla.org/en-US/docs/Web/CSS/clip)
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- clip: todo;
+
+// React Native
++ clip: "todo",
+```
+
+### [filter](https://developer.mozilla.org/en-US/docs/Web/CSS/fliter)
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- fliter: todo;
+
+// React Native
++ filter: "todo",
+```
+
+### [outlineColor](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-color)
+
+An outline is a line that is drawn around elements (outside the borders) to make the element "stand out".
+
+The `outlineColor` property specifies the color of an outline.
+
+> **Note:** Always declare the `outlineStyle` property before the `outlineColor` property. An element must have an outline before you change the color of it.
+
+#### **Type:** `ColorPropType`
+
+#### Conversion
+
+```diff
+// CSS
+- outline-color: todo;
+
+// React Native
++ outlineColor: "todo",
+```
+
+### [outlineOffset](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-offset)
+
+desccc
+
+#### **Type:** `enum(string, number)`
+
+#### Conversion
+
+```diff
+// CSS
+- outline-offset: todo;
+
+// React Native
++ outlineOffset: "todo",
+```
+
+### [outlineStyle](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style)
+
+An outline is a line that is drawn around elements (outside the borders) to make the element "stand out".
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- outline-style: todo;
+
+// React Native
++ outlineStyle: "todo",
+```
+
+### [outlineWidth](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-width)
+
+An outline is a line that is drawn around elements (outside the borders) to make the element "stand out".
+
+> **Note:** Always declare the `outlineStyle` property before the `outlineWidth` property. An element must have an outline before you change the width of it.
+
+#### **Type:** `enum(string, number)`
+
+#### Conversion
+
+```diff
+// CSS
+- outline-width: todo;
+
+// React Native
++ outlineWidth: "todo",
+```
+
+### [overscrollBehavior](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior)
+
+The `overscrollBehavior` CSS property sets what a browser does when reaching the boundary of a scrolling area. It's a shorthand for `overscrollBehaviorX` and `overscrollBehaviorY`.
+
+#### **Type:** `enum('auto', 'contain', 'none')`
+
+#### Conversion
+
+```diff
+// CSS
+- overscroll-behavior: auto;
+
+// React Native
++ overscrollBehavior: "auto",
+```
+
+### [overscrollBehaviorX](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior-x)
+
+The `overscrollBehaviorX` CSS property sets the browser's behavior when the horizontal boundary of a scrolling area is reached.
+
+#### **Type:** `enum('auto', 'contain', 'none')`
+
+#### Conversion
+
+```diff
+// CSS
+- overscroll-behavior-x: contain;
+
+// React Native
++ overscrollBehaviorX: "contain",
+```
+
+### [overscrollBehaviorY](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior-y)
+
+The `overscrollBehaviorY` CSS property sets the browser's behavior when the vertical boundary of a scrolling area is reached.
+
+#### **Type:** `enum('auto', 'contain', 'none')`
+
+#### Conversion
+
+```diff
+// CSS
+- overscroll-behavior-y: contain;
+
+// React Native
++ overscrollBehaviorY: "contain",
+```
+
+### [scrollbarWidth](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width)
+
+The scrollbar-width property allows the author to set the maximum thickness of an element’s scrollbars when they are shown.
+
+#### **Type:** `enum('auto', 'thin', 'none')`
+
+#### Conversion
+
+```diff
+// CSS
+- scrollbar-width: todo;
+
+// React Native
++ scrollbarWidth: "todo",
+```
+
+### [scrollSnapAlign](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align)
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- scroll-snap-align: todo;
+
+// React Native
++ scrollSnapAlign: "todo",
+```
+
+### [scrollSnapType](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type)
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- scroll-snap-type: todo;
+
+// React Native
++ scrollSnapType: "todo",
+```
+
+### WebkitMaskImage
+
+desccc
+
+#### **Type:** `string`
+
+#### Conversion
+
+```diff
+// CSS
+- text-indent: todo;
+
+// React Native
++ textIndent: "todo",
+```
+
+### WebkitOverflowScrolling
+
+desccc
+
+#### **Type:** `enum('auto', 'touch')`
+
+#### Conversion
+
+```diff
+// CSS
+- text-indent: todo;
+
+// React Native
++ textIndent: "todo",
+```
