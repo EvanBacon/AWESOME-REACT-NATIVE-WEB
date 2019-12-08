@@ -15,7 +15,22 @@
 
 - [Animations](styling/animations.md)
 
-- [`- animationDelay`](styling/animations#animationdelay)
+- [- `animationDelay`](styling/animations#animationdelay)
+- [- `animationDirection`](styling/animations#animationdirection)
+- [- `animationDuration`](styling/animations#animationduration)
+- [- `animationFillMode`](styling/animations#animationfillmode)
+- [- `animationIterationCount`](styling/animations#animationiterationcount)
+- [- `animationKeyframes`](styling/animations#animationkeyframes)
+- [- `animationPlayState`](styling/animations#animationplaystate)
+- [- `animationTimingFunction`](styling/animations#animationtimingfunction)
+- [- `animationDelay`](styling/animations#animationdelay)
+- [- `animationDirection`](styling/animations#animationdirection)
+- [- `animationDuration`](styling/animations#animationduration)
+- [- `animationFillMode`](styling/animations#animationfillmode)
+- [- `animationIterationCount`](styling/animations#animationiterationcount)
+- [- `animationKeyframes`](styling/animations#animationkeyframes)
+- [- `animationPlayState`](styling/animations#animationplaystate)
+- [- `animationTimingFunction`](styling/animations#animationtimingfunction)
 
 - [Aspect Ratio](styling/aspect-ratio.md)
 - [Grids](styling/grids.md)
