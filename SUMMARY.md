@@ -15,7 +15,7 @@
 
 - [Animations](styling/animations.md)
 
-- [- `animationDelay`](styling/animations#animationdelay)
+- [- `animationDelay`](styling/animations.md#animationdelay)
 - [- `animationDirection`](styling/animations#animationdirection)
 - [- `animationDuration`](styling/animations#animationduration)
 - [- `animationFillMode`](styling/animations#animationfillmode)
