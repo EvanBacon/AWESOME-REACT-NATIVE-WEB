@@ -7,9 +7,9 @@ description: >-
 
 ## The API
 
-### [backdropFilter](https://developer.mozilla.org/en-US/docs/Web/CSS/background-filter)
+### [backdropFilter](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter)
 
-desccc
+The `backdropFilter` CSS property lets you apply graphical effects such as blurring or color shifting to the area behind an element. Because it applies to everything behind the element, to see the effect you must make the element or its background at least partially transparent.
 
 #### **Type:** `string`
 
@@ -17,15 +17,15 @@ desccc
 
 ```diff
 // CSS
-- background-filter: todo;
+- background-filter: brightness(60%);
 
 // React Native
-+ backdropFilter: "todo",
++ backdropFilter: "brightness(60%)",
 ```
 
 ### [backgroundAttachment](https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment)
 
-desccc
+The `backgroundAttachment` CSS property sets whether a background image's position is fixed within the viewport, or scrolls with its containing block.
 
 #### **Type:** `string`
 
@@ -41,7 +41,7 @@ desccc
 
 ### [backgroundBlendMode](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode)
 
-desccc
+The `backgroundBlendMode` CSS property sets how an element's background images should blend with each other and with the element's background color.
 
 #### **Type:** `string`
 
@@ -57,7 +57,7 @@ desccc
 
 ### [backgroundClip](https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip)
 
-desccc
+The `backgroundClip` CSS property sets whether an element's background extends underneath its border box, padding box, or content box.
 
 #### **Type:** `string`
 
@@ -73,7 +73,7 @@ desccc
 
 ### [backgroundImage](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
 
-desccc
+The `backgroundImage` CSS property sets one or more background images on an element.
 
 #### **Type:** `string`
 
@@ -89,7 +89,7 @@ desccc
 
 ### [backgroundOrigin](https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin)
 
-desccc
+The `backgroundOrigin` CSS property sets the background's origin: from the border start, inside the border, or inside the padding.
 
 #### **Type:** `enum('border-box', 'content-box', 'padding-box')`
 
@@ -105,7 +105,7 @@ desccc
 
 ### [backgroundPosition](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
 
-desccc
+The `backgroundPosition` CSS property sets the initial position for each background image. The position is relative to the position layer set by `backgroundOrigin`.
 
 #### **Type:** `string`
 
@@ -113,15 +113,15 @@ desccc
 
 ```diff
 // CSS
-- background-position: todo;
+- background-position: 50%;
 
 // React Native
-+ backgroundPosition: "todo",
++ backgroundPosition: "50%",
 ```
 
 ### [backgroundRepeat](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat)
 
-desccc
+The `backgroundRepeat` CSS property sets how background images are repeated. A background image can be repeated along the horizontal and vertical axes, or not repeated at all.
 
 #### **Type:** `string`
 
@@ -137,7 +137,7 @@ desccc
 
 ### [backgroundSize](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size)
 
-desccc
+The `backgroundSize` CSS property sets the size of the element's background image. The image can be left to its natural size, stretched, or constrained to fit the available space.
 
 #### **Type:** `string`
 
@@ -153,7 +153,7 @@ desccc
 
 ### [boxShadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
 
-desccc
+The `boxShadow` CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radii, and color.
 
 #### **Type:** `string`
 
@@ -169,7 +169,7 @@ desccc
 
 ### [clip](https://developer.mozilla.org/en-US/docs/Web/CSS/clip)
 
-desccc
+The `clip` CSS property defines what portion of an element is visible. The `clip` property applies only to absolutely positioned elements, that is elements with `position: "absolute"` or `position: "fixed"`.
 
 #### **Type:** `string`
 
@@ -183,9 +183,9 @@ desccc
 + clip: "todo",
 ```
 
-### [filter](https://developer.mozilla.org/en-US/docs/Web/CSS/fliter)
+### [filter](https://developer.mozilla.org/en-US/docs/Web/CSS/filter)
 
-desccc
+The `filter` CSS property applies graphical effects like blur or color shift to an element. Filters are commonly used to adjust the rendering of images, backgrounds, and borders.
 
 #### **Type:** `string`
 
@@ -221,7 +221,7 @@ The `outlineColor` property specifies the color of an outline.
 
 ### [outlineOffset](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-offset)
 
-desccc
+The `outlineOffset` CSS property sets the amount of space between an outline and the edge or border of an element.
 
 #### **Type:** `enum(string, number)`
 
@@ -319,7 +319,7 @@ The `overscrollBehaviorY` CSS property sets the browser's behavior when the vert
 
 ### [scrollbarWidth](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width)
 
-The scrollbar-width property allows the author to set the maximum thickness of an element’s scrollbars when they are shown.
+The `scrollbarWidth` property allows the author to set the maximum thickness of an element’s scrollbars when they are shown.
 
 #### **Type:** `enum('auto', 'thin', 'none')`
 
@@ -335,7 +335,7 @@ The scrollbar-width property allows the author to set the maximum thickness of a
 
 ### [scrollSnapAlign](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align)
 
-desccc
+The `scrollSnapAlign` property specifies the box’s snap position as an alignment of its snap area (as the alignment subject) within its snap container’s snapport (as the alignment container). The two values specify the snapping alignment in the block axis and inline axis, respectively. If only one value is specified, the second value defaults to the same value.
 
 #### **Type:** `string`
 
@@ -351,7 +351,7 @@ desccc
 
 ### [scrollSnapType](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type)
 
-desccc
+The `scrollSnapType` CSS property sets how strictly snap points are enforced on the scroll container in case there is one.
 
 #### **Type:** `string`
 
@@ -365,9 +365,9 @@ desccc
 + scrollSnapType: "todo",
 ```
 
-### WebkitMaskImage
+### [WebkitMaskImage](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-image)
 
-desccc
+The `maskImage` CSS property sets the image that is used as mask layer for an element.
 
 #### **Type:** `string`
 
@@ -381,9 +381,9 @@ desccc
 + textIndent: "todo",
 ```
 
-### WebkitOverflowScrolling
+### [WebkitOverflowScrolling](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-overflow-scrolling)
 
-desccc
+The `WebkitOverflowScrolling` CSS property controls whether or not touch devices use momentum-based scrolling for a given element.
 
 #### **Type:** `enum('auto', 'touch')`
 
