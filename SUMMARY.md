@@ -15,7 +15,7 @@
 
 - [Animations](styling/animations.md)
 
-- [- `animationDelay`](styling/animations.md#animationdelay)
+- [- `animationDelay`](https://baconbrix.gitbook.io/react-native-web/styling/animations#animationdelay)
 - [- `animationDirection`](styling/animations#animationdirection)
 - [- `animationDuration`](styling/animations#animationduration)
 - [- `animationFillMode`](styling/animations#animationfillmode)
