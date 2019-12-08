@@ -15,12 +15,12 @@ The `backdropFilter` CSS property lets you apply graphical effects such as blurr
 
 #### Conversion
 
-```diff
+```
 // CSS
-- background-filter: brightness(60%);
+background-filter: brightness(60%);
 
 // React Native
-+ backdropFilter: "brightness(60%)",
+backdropFilter: "brightness(60%)",
 ```
 
 ### [backgroundAttachment](https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment)
@@ -31,12 +31,12 @@ The `backgroundAttachment` CSS property sets whether a background image's positi
 
 #### Conversion
 
-```diff
+```
 // CSS
-- background-attachment: todo;
+background-attachment: todo;
 
 // React Native
-+ backgroundAttachment: "todo",
+backgroundAttachment: "todo",
 ```
 
 ### [backgroundBlendMode](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode)
@@ -47,12 +47,12 @@ The `backgroundBlendMode` CSS property sets how an element's background images s
 
 #### Conversion
 
-```diff
+```
 // CSS
-- background-blend-mode: todo;
+background-blend-mode: todo;
 
 // React Native
-+ backgroundBlendMode: "todo",
+backgroundBlendMode: "todo",
 ```
 
 ### [backgroundClip](https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip)
@@ -63,12 +63,12 @@ The `backgroundClip` CSS property sets whether an element's background extends u
 
 #### Conversion
 
-```diff
+```
 // CSS
-- background-clip: todo;
+background-clip: todo;
 
 // React Native
-+ backgroundClip: "todo",
+backgroundClip: "todo",
 ```
 
 ### [backgroundImage](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
@@ -79,12 +79,12 @@ The `backgroundImage` CSS property sets one or more background images on an elem
 
 #### Conversion
 
-```diff
+```
 // CSS
-- background-image: todo;
+background-image: todo;
 
 // React Native
-+ backgroundImage: "todo",
+backgroundImage: "todo",
 ```
 
 ### [backgroundOrigin](https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin)
@@ -95,12 +95,12 @@ The `backgroundOrigin` CSS property sets the background's origin: from the borde
 
 #### Conversion
 
-```diff
+```
 // CSS
-- background-origin: todo;
+background-origin: todo;
 
 // React Native
-+ backgroundOrigin: "todo",
+backgroundOrigin: "todo",
 ```
 
 ### [backgroundPosition](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
@@ -111,12 +111,12 @@ The `backgroundPosition` CSS property sets the initial position for each backgro
 
 #### Conversion
 
-```diff
+```
 // CSS
-- background-position: 50%;
+background-position: 50%;
 
 // React Native
-+ backgroundPosition: "50%",
+backgroundPosition: "50%",
 ```
 
 ### [backgroundRepeat](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat)
@@ -127,12 +127,12 @@ The `backgroundRepeat` CSS property sets how background images are repeated. A b
 
 #### Conversion
 
-```diff
+```
 // CSS
-- background-repeat: todo;
+background-repeat: todo;
 
 // React Native
-+ backgroundRepeat: "todo",
+backgroundRepeat: "todo",
 ```
 
 ### [backgroundSize](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size)
@@ -143,12 +143,12 @@ The `backgroundSize` CSS property sets the size of the element's background imag
 
 #### Conversion
 
-```diff
+```
 // CSS
-- background-size: todo;
+background-size: todo;
 
 // React Native
-+ backgroundSize: "todo",
+backgroundSize: "todo",
 ```
 
 ### [boxShadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
@@ -159,12 +159,12 @@ The `boxShadow` CSS property adds shadow effects around an element's frame. You 
 
 #### Conversion
 
-```diff
+```
 // CSS
-- box-shadow: todo;
+box-shadow: todo;
 
 // React Native
-+ boxShadow: "todo",
+boxShadow: "todo",
 ```
 
 ### [clip](https://developer.mozilla.org/en-US/docs/Web/CSS/clip)
@@ -175,12 +175,12 @@ The `clip` CSS property defines what portion of an element is visible. The `clip
 
 #### Conversion
 
-```diff
+```
 // CSS
-- clip: todo;
+clip: todo;
 
 // React Native
-+ clip: "todo",
+clip: "todo",
 ```
 
 ### [filter](https://developer.mozilla.org/en-US/docs/Web/CSS/filter)
@@ -191,12 +191,12 @@ The `filter` CSS property applies graphical effects like blur or color shift to 
 
 #### Conversion
 
-```diff
+```
 // CSS
-- fliter: todo;
+fliter: todo;
 
 // React Native
-+ filter: "todo",
+filter: "todo",
 ```
 
 ### [outlineColor](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-color)
@@ -211,12 +211,12 @@ The `outlineColor` property specifies the color of an outline.
 
 #### Conversion
 
-```diff
+```
 // CSS
-- outline-color: todo;
+outline-color: todo;
 
 // React Native
-+ outlineColor: "todo",
+outlineColor: "todo",
 ```
 
 ### [outlineOffset](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-offset)
@@ -227,12 +227,12 @@ The `outlineOffset` CSS property sets the amount of space between an outline and
 
 #### Conversion
 
-```diff
+```
 // CSS
-- outline-offset: todo;
+outline-offset: todo;
 
 // React Native
-+ outlineOffset: "todo",
+outlineOffset: "todo",
 ```
 
 ### [outlineStyle](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style)
@@ -243,12 +243,12 @@ An outline is a line that is drawn around elements (outside the borders) to make
 
 #### Conversion
 
-```diff
+```
 // CSS
-- outline-style: todo;
+outline-style: todo;
 
 // React Native
-+ outlineStyle: "todo",
+outlineStyle: "todo",
 ```
 
 ### [outlineWidth](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-width)
@@ -261,12 +261,12 @@ An outline is a line that is drawn around elements (outside the borders) to make
 
 #### Conversion
 
-```diff
+```
 // CSS
-- outline-width: todo;
+outline-width: todo;
 
 // React Native
-+ outlineWidth: "todo",
+outlineWidth: "todo",
 ```
 
 ### [overscrollBehavior](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior)
@@ -277,12 +277,12 @@ The `overscrollBehavior` CSS property sets what a browser does when reaching the
 
 #### Conversion
 
-```diff
+```
 // CSS
-- overscroll-behavior: auto;
+overscroll-behavior: auto;
 
 // React Native
-+ overscrollBehavior: "auto",
+overscrollBehavior: "auto",
 ```
 
 ### [overscrollBehaviorX](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior-x)
@@ -293,12 +293,12 @@ The `overscrollBehaviorX` CSS property sets the browser's behavior when the hori
 
 #### Conversion
 
-```diff
+```
 // CSS
-- overscroll-behavior-x: contain;
+overscroll-behavior-x: contain;
 
 // React Native
-+ overscrollBehaviorX: "contain",
+overscrollBehaviorX: "contain",
 ```
 
 ### [overscrollBehaviorY](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior-y)
@@ -309,12 +309,12 @@ The `overscrollBehaviorY` CSS property sets the browser's behavior when the vert
 
 #### Conversion
 
-```diff
+```
 // CSS
-- overscroll-behavior-y: contain;
+overscroll-behavior-y: contain;
 
 // React Native
-+ overscrollBehaviorY: "contain",
+overscrollBehaviorY: "contain",
 ```
 
 ### [scrollbarWidth](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width)
@@ -325,12 +325,12 @@ The `scrollbarWidth` property allows the author to set the maximum thickness of 
 
 #### Conversion
 
-```diff
+```
 // CSS
-- scrollbar-width: todo;
+scrollbar-width: todo;
 
 // React Native
-+ scrollbarWidth: "todo",
+scrollbarWidth: "todo",
 ```
 
 ### [scrollSnapAlign](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align)
@@ -341,12 +341,12 @@ The `scrollSnapAlign` property specifies the box’s snap position as an alignme
 
 #### Conversion
 
-```diff
+```
 // CSS
-- scroll-snap-align: todo;
+scroll-snap-align: todo;
 
 // React Native
-+ scrollSnapAlign: "todo",
+scrollSnapAlign: "todo",
 ```
 
 ### [scrollSnapType](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type)
@@ -357,12 +357,12 @@ The `scrollSnapType` CSS property sets how strictly snap points are enforced on 
 
 #### Conversion
 
-```diff
+```
 // CSS
-- scroll-snap-type: todo;
+scroll-snap-type: todo;
 
 // React Native
-+ scrollSnapType: "todo",
+scrollSnapType: "todo",
 ```
 
 ### [WebkitMaskImage](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-image)
@@ -373,12 +373,12 @@ The `maskImage` CSS property sets the image that is used as mask layer for an el
 
 #### Conversion
 
-```diff
+```
 // CSS
-- text-indent: todo;
+text-indent: todo;
 
 // React Native
-+ textIndent: "todo",
+textIndent: "todo",
 ```
 
 ### [WebkitOverflowScrolling](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-overflow-scrolling)
@@ -389,10 +389,10 @@ The `WebkitOverflowScrolling` CSS property controls whether or not touch devices
 
 #### Conversion
 
-```diff
+```
 // CSS
-- text-indent: todo;
+text-indent: todo;
 
 // React Native
-+ textIndent: "todo",
+textIndent: "todo",
 ```
