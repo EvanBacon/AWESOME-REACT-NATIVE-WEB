@@ -34,8 +34,9 @@ function AspectView(props) {
     <View
       {...props}
       style={style}
-      onLayout={({ nativeEvent: { layout } }) => setLayout(layout)}
-    />
+      onLayout={({ nativeEvent: { layout } }) => setLayout(layout)}>
+      {layout ? props.children : null}
+    </View>
   );
 }
 
