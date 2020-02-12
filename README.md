@@ -30,7 +30,7 @@ This is collection of helpful information about using React Native for web & Exp
   * [Website](https://ldr.netlify.com)
   * [Source Code](https://github.com/EvanBacon/Lego-Expo)
 * Kitten Tricks
-  * [Website](https://akveo.github.io/react-native-ui-kitten/)
+  * [Website](https://kitten-tricks.netlify.com)
   * [Source Code](https://github.com/akveo/kittenTricks)
 * Inspiration Native
   * [Website](https://inspiration-native.netlify.com/)
