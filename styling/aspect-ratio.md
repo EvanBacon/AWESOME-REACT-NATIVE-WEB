@@ -26,7 +26,7 @@ function AspectView(props) {
     if (width === 0) {
       style.push({ width: height * aspectRatio, height });
     } else {
-      style.push({ width, height: width * aspectRatio });
+      style.push({ width, height: width / aspectRatio });
     }
   }
 
